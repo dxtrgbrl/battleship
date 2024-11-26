@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
 <title>Battleship</title>
+<meta charset="utf-8">
 <style>
 body {
 	background-color: black;
@@ -14,7 +14,6 @@ div#board {
 	margin: auto;
 	background: url("board.jpg") no-repeat;
 }
-
 div#messageArea {
 	position: absolute;
 	top: 0px;
@@ -27,18 +26,6 @@ div#messageArea {
 .miss {
 	background: url("miss.png") no-repeat center center;
 }
-table {
-	border-spacing: 0px; 
-	/* could use border-collapse instead */
-	/* border-collapse: collapse; */
-	position: absolute;
-	left: 173px;
-	top: 98px;
-}
-td {
-	width: 94px;
-	height: 94px;
-}
 form {
 	position: absolute;
 	bottom: 0px;
@@ -47,9 +34,19 @@ form {
 	background-color: rgb(83, 175, 19);
 }
 form input {
-	background-color: rgb(152, 207, 113);
+	background-color: #98CF71;
 	border-color: rgb(83, 175, 19);
 	font-size: 1em;
+}
+table {
+	border-spacing: 0px;
+	position: absolute;
+	left: 173px;
+	top: 98px;
+}
+td {
+	width: 94px;
+	height: 94px;
 }
 </style>
 </head>
@@ -91,7 +88,6 @@ form input {
 <input type="button" id="fireButton" value="Fire!">
 </form>
 </div>
-<script src="battleship.js">
-</script>
+<script src="battleship_tester.js"> </script>
 </body>
 </html>
